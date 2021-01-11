@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 app = Flask(__name__)
-model_load = joblib.load("./models/rf_model.pkl")
+model_load = joblib.load("models/rf_model.pkl")
 
 @app.route('/')
 def home():
